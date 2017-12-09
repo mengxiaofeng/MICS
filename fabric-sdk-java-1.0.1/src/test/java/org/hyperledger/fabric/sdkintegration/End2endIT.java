@@ -200,8 +200,8 @@ public class End2endIT {
             runChannel(client, barChannel, true, sampleOrg, 100); //run a newly constructed bar channel with different b value!
             //let bar channel just shutdown so we have both scenarios.
 
-            out("\nTraverse the blocks for chain %s ", barChannel.getName());
-            blockWalker(barChannel);
+//            out("\nTraverse the blocks for chain %s ", barChannel.getName());
+//            blockWalker(barChannel);
             out("That's all folks!");
 
         } catch (Exception e) {
